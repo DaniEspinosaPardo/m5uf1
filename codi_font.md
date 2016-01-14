@@ -9,20 +9,12 @@
 
 **Codi executable:** aquest codi finalment esta preparat per **executar-se en la màquina**. Quan s'agafen els fitxers amb codi objecte i els enllaçem tots amb **l'enllaçador** (o **linker**). Això fa que estigui completament traduït i es pugui executar.
 
-**Enllaçador:** es l'encarregat de incloure les **funcions de les llibreries** i d'ajuntar tots els fitxers per crear el **fitxer executable.**
+**Màquines Virtuals:** El concepte de màquina virtual sorgeix amb l’objectiu de facilitar el desenvolupament de compiladors que generen codi per a diferents processadors.
 
-Els programes es separen en dos grups:
+La compilació consta de dues fases:
 
-* **Compilats:** S'agafa el codi font i es compila, aconseguint el codi objecte. Una vegada tenim tots els fitxers compilats, l'enllaçador crea el fitxer executable.
+* La primera parteix del codi font a un llenguatge intermedi obtenint un programa equivalent amb un menor nivell d’abstracció que l’original i que no pot ser directament executat. 
 
-  * Avantatges: Si s'ha de compilar algun fitxer, no es necessari compilar tot el programa, només farà falta compilar aquest i   després tornar a enllaçar.
-  
-  * Desventatges: S'han de crear per a cada processador, un programa d'un no funcionarà en un altre.
-  
+* La segona fase tradueix el llenguatge intermedi a un llenguatge comprensible per la màquina.
 
-* **Interpretats:** Agafen el codi font i fan una **pre-compilació**, en la qual es tradueix a un llenguatge que pot entendre   l'intèrpret, que serà l'encarregat de executar el programa (**Màquina Virtual de Java**).
-
-  * Avantatges: Són **multi-plataforma**, es poden executar en qualsevol sistema gràcies a l'intèrpret. 
-  
-  * Desventatges: Són mes lents, ja que sempre fan el procés d'interpretar, es necessari tenir instal·lat l'intèrpret.
-
+* Exemple de màquina virtual: JVM (Java Virtual Machine).

@@ -9,12 +9,12 @@
 
 **Codi executable:** aquest codi finalment esta preparat per **executar-se en la màquina**. Quan s'agafen els fitxers amb codi objecte i els enllaçem tots amb **l'enllaçador** (o **linker**). Això fa que estigui completament traduït i es pugui executar.
 
-**Màquines Virtuals:** El concepte de màquina virtual sorgeix amb l’objectiu de facilitar el desenvolupament de compiladors que generen codi per a diferents processadors.
+**Màquines Virtuals:** El concepte de màquina virtual sorgeix amb l’objectiu de **facilitar el desenvolupament de compiladors** que generen codi per a diferents processadors.
 
-La compilació consta de dues fases:
+La **compilació** consta de dues fases:
 
-* La primera parteix del codi font a un llenguatge intermedi obtenint un programa equivalent amb un menor nivell d’abstracció que l’original i que no pot ser directament executat. 
+* La primera parteix del codi font a un llenguatge intermedi **obtenint un programa equivalent amb un menor nivell d’abstracció** que l’original i que no pot ser directament executat. 
 
-* La segona fase tradueix el llenguatge intermedi a un llenguatge comprensible per la màquina.
+* La segona fase **tradueix el llenguatge intermedi** a un llenguatge comprensible per la màquina.
 
-Exemple de màquina virtual: JVM (Java Virtual Machine).
+Exemple de màquina virtual: JVM (**Java Virtual Machine**).

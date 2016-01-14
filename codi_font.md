@@ -17,4 +17,4 @@ La compilació consta de dues fases:
 
 * La segona fase tradueix el llenguatge intermedi a un llenguatge comprensible per la màquina.
 
-* Exemple de màquina virtual: JVM (Java Virtual Machine).
+Exemple de màquina virtual: JVM (Java Virtual Machine).

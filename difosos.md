@@ -2,4 +2,4 @@
   
   1- Característiques de la programació estructurada
   
-      - **Claredat:** Tot el codi
+      **Claredat:** Tot el codi

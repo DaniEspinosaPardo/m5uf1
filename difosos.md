@@ -26,3 +26,24 @@ Hi han dos maneres de dividir un programa:
 
 2- Característiques de la programació orientada a objectes
 
+L’**orientació a objectes** (en endavant, OO) és un paradigma de construcció de programes basat en una abstracció del món real.
+
+Un **objecte** és una combinació de dades (anomenades **atributs**) i mètodes (**funcions i procediments**) que ens permeten interactuar amb ell. En OO, doncs, els **programes són conjunts d’objectes que interactuen entre ells** a través de missatges (crides a mètodes).
+
+La programació orientada a objectes es basa en la integració de 5 conceptes:
+
+**Abstracció:** Es defineixen les característiques essencials d’un objecte del món real, els atributs i comportaments que el defineixen com a tal, per després modelar-lo en un objecte de programari.
+* **Exemple**: classe.
+
+**Encapsulació:** Es la capacitat que tenen els objectes per permetre o no ser accesibles des d'afora.
+* public, protect, private.
+
+**Modularitat:** Estant el programa separat en mòduls, quan es modifica un d'ells, no afecta als altres.
+
+**Jerarquia:** Permet l’ordenació de les abstraccions. Les dues jerarquies més importants d’un sistema complex són l’herència i l’agregació:
+
+* **Herència: ** 
+
+* **Agregació: ** 
+ 
+**Poliformisme:** El bucle condicional "mentre condició, fes SentènciaA", que executa les instruccions repetidament mentre la condició es compleixi.

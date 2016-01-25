@@ -42,8 +42,8 @@ La programació orientada a objectes es basa en la integració de 5 conceptes:
 
 **Jerarquia:** Permet l’ordenació de les abstraccions. Les dues jerarquies més importants d’un sistema complex són l’herència i l’agregació:
 
-* **Herència: ** 
+* **Herència**: classe.
 
-* **Agregació: ** 
+* **Agregació**: classe.
  
 **Poliformisme:** El bucle condicional "mentre condició, fes SentènciaA", que executa les instruccions repetidament mentre la condició es compleixi.

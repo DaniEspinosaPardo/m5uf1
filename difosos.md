@@ -42,8 +42,14 @@ La programació orientada a objectes es basa en la integració de 5 conceptes:
 
 **Jerarquia:** Permet l’ordenació de les abstraccions. Les dues jerarquies més importants d’un sistema complex són l’herència i l’agregació:
 
-* **Herència**: classe.
+* **Herència**: Es permet que una classe tingui els mateixos mètodes/variables que una altre, i a més, que pugui tenir les seves propies.
 
-* **Agregació**: classe.
- 
-**Poliformisme:** El bucle condicional "mentre condició, fes SentènciaA", que executa les instruccions repetidament mentre la condició es compleixi.
+**Exemple**: Treballador **es** una persona i pot **heredar** perfectament de persona.
+
+* **Agregació**: Es quan un objecte està format per la combinació d'altres objectes o components. 
+
+**Exemple**: Un ordinador es **composa** de una CPU, una pantalla, un teclat, etc... aquests components **no tenen sentit** sense l'ordinador.
+
+**Poliformisme:**  Es la capacitat que tenen els mètodes per fer-ne sobrecàrrrega (overload). L'overload es quan un mètode es pot implementar varies vegades, però amb paràmetres diferents.
+
+**Exemple**: Mètode DemanarDades(), pot ser **DemanarDades(String nom, String cognom, String cognom2)** i a la vegada es pot fer **sobrecàrrega** del mateix mètode d'aquesta manera: **DemanarDades(String nom, String cognom)**.
